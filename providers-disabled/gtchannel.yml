@@ -1,0 +1,14 @@
+- provider_name: GT Channel
+  provider_url: https://gtchannel.com
+  endpoints:
+    - schemes:
+        - https://gtchannel.com/watch/*
+      url: https://api.luminery.com/oembed
+      example_urls:
+        - >-
+          https://api.luminery.com/oembed?url=http%3A%2F%2Fgtchannel.com%2Fwatch%2F4ODiBxivkuTXfsk1tv20Ox
+      discovery: true
+      notes:
+        - >-
+          Disabled on September 10, 2026: Endpoint or domain is unreachable (DNS
+          or timeout error).
