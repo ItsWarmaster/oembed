@@ -1,0 +1,14 @@
+- provider_name: tvcf
+  provider_url: http://tvcf.co.kr
+  endpoints:
+    - schemes:
+        - https://play.tvcf.co.kr/*
+        - https://*.tvcf.co.kr/*
+      url: https://play.tvcf.co.kr/rest/oembed
+      example_urls:
+        - >-
+          https://play.tvcf.co.kr/rest/oembed/?url=https://play.tvcf.co.kr/739477&format=json
+      notes:
+        - >-
+          Disabled on October 22, 2026: Endpoint is blocking requests (403
+          Forbidden).
